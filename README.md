@@ -1,6 +1,6 @@
 # TestWork47483 Sample Task
 
-WordPress City Listing Table with AJAX
+**WordPress City Listing Table with AJAX**
 
 This project implements a custom WordPress functionality that displays a list of cities with corresponding countries and temperatures fetched from the OpenWeatherMap API. The table supports AJAX-powered dynamic loading, search functionality, and mobile responsiveness.
 
