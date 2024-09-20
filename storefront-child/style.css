@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    https://wordpress.org/themes/storefront/
+ Description:  Storefront Child Theme
+ Author:       WordPress.org
+ Author URI:   https://wordpress.org/
+ Template:     storefront
+ Version:      1.0.0
+ Text Domain:  storefront-child
+*/
+
+@import url("../storefront/style.css"); /* Import the parent theme stylesheet */

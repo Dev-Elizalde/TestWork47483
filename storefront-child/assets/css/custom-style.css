@@ -1,0 +1,204 @@
+/* General Styling */
+.site-content {
+    text-align: center;
+}
+
+#masthead {
+    background-color: #f3f3f3;
+}
+
+.site-footer {
+    margin-top: 50px;
+}
+
+label#hook-label {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+tbody#city-list-data td {
+    text-transform: capitalize;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+/* Search Input & Items per page */
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 250px;
+    max-width: 100%;
+}
+
+.controls label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.controls select {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Table Styling */
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination */
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.pagination-info {
+    font-size: 14px;
+    color: #333;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* General Pagination Button Styles */
+.pagination-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pagination-button i {
+    font-size: 16px;
+    display: none;
+}
+
+.pagination-button .button-text {
+    display: inline; 
+}
+
+/* Hover Effects */
+.pagination-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination-button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Total Entries */
+.total-entries {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
+    color: #555;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-input {
+        width: 100%; 
+        margin-top: 10px;
+    }
+
+    .controls label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .pagination-controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .pagination-button {
+        width: auto; 
+        padding: 8px 12px;
+    }
+
+    .pagination-button .button-text {
+        display: none;
+    }
+
+    .pagination-button i {
+        display: inline;
+        font-size: 20px;
+    }
+
+    .table-container {
+        padding: 10px;
+    }
+
+    .total-entries {
+        font-size: 12px;
+    }
+}
