@@ -29,22 +29,7 @@ How to Use
 Project Structure
 Here’s how your project should be organized:
 
-wp-content/themes/your-child-theme/
-│
-├── screenshot.png  # Thumbnail for child theme
-├── style.css # Style CSS
-├── functions.php  # Custom functions and hook registration
-├── assets/
-│   └── js/
-│       └── city-list.js  # JavaScript for AJAX and pagination
-├── assets/
-│   └── css/
-│       └── style.css  # Custom styles for the table and pagination
-├── assets/
-│   └── widgets/
-│       └── city-weather-widget.css  # Custom widget
-├── templates/
-│   └── template-page.php  # Custom page template to display the table
+![Uploading image.png…]()
 
 Requirements
 WordPress 5.0 or higher
