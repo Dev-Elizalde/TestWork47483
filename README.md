@@ -29,7 +29,7 @@ How to Use
 Project Structure
 Here’s how your project should be organized:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6f17fb16-aaf9-4d32-b152-905bb9c5f1c3)
 
 Requirements
 WordPress 5.0 or higher
